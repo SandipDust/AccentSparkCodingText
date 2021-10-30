@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D1ED66DC1B2186716E957EE /* Pods_AccentSparkInterview.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB752033A0BDF56304862D2 /* Pods_AccentSparkInterview.framework */; };
+		EB4D22F7272BD1F30038E869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22F6272BD1F30038E869 /* AppDelegate.swift */; };
+		EB4D22F9272BD1F30038E869 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22F8272BD1F30038E869 /* SceneDelegate.swift */; };
+		EB4D22FB272BD1F30038E869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D22FA272BD1F30038E869 /* ViewController.swift */; };
+		EB4D22FE272BD1F30038E869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D22FC272BD1F30038E869 /* Main.storyboard */; };
+		EB4D2303272BD1F50038E869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4D2301272BD1F50038E869 /* LaunchScreen.storyboard */; };
+		EB4D230B272BD9A10038E869 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D230A272BD9A10038E869 /* CustomTableViewCell.swift */; };
+		EB4D230D272BE08C0038E869 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D230C272BE08C0038E869 /* UserModel.swift */; };
+		EB4D230F272BF12E0038E869 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D230E272BF12E0038E869 /* NetworkManager.swift */; };
+		EB4D2311272BF5660038E869 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4D2310272BF5660038E869 /* UserData.swift */; };
+		EB56AD06272CF8BC009717FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB56AD05272CF8BC009717FF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0155FB90C01EDE68129A44EF /* Pods-AccentSparkInterview.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccentSparkInterview.debug.xcconfig"; path = "Target Support Files/Pods-AccentSparkInterview/Pods-AccentSparkInterview.debug.xcconfig"; sourceTree = "<group>"; };
+		5AB752033A0BDF56304862D2 /* Pods_AccentSparkInterview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AccentSparkInterview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39356E08EE9273C503E9769 /* Pods-AccentSparkInterview.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AccentSparkInterview.release.xcconfig"; path = "Target Support Files/Pods-AccentSparkInterview/Pods-AccentSparkInterview.release.xcconfig"; sourceTree = "<group>"; };
+		EB4D22F3272BD1F30038E869 /* AccentSparkInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccentSparkInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4D22F6272BD1F30038E869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB4D22F8272BD1F30038E869 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB4D22FA272BD1F30038E869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB4D22FD272BD1F30038E869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB4D2302272BD1F50038E869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB4D2304272BD1F50038E869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4D230A272BD9A10038E869 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		EB4D230C272BE08C0038E869 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EB4D230E272BF12E0038E869 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EB4D2310272BF5660038E869 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		EB56AD05272CF8BC009717FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4D22F0272BD1F30038E869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1ED66DC1B2186716E957EE /* Pods_AccentSparkInterview.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D0E5228465C1D00247763D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AB752033A0BDF56304862D2 /* Pods_AccentSparkInterview.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C237BC0A8472438C50223CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0155FB90C01EDE68129A44EF /* Pods-AccentSparkInterview.debug.xcconfig */,
+				C39356E08EE9273C503E9769 /* Pods-AccentSparkInterview.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB4D22EA272BD1F30038E869 = {
+			isa = PBXGroup;
+			children = (
+				EB4D22F5272BD1F30038E869 /* AccentSparkInterview */,
+				EB4D22F4272BD1F30038E869 /* Products */,
+				C237BC0A8472438C50223CAF /* Pods */,
+				05D0E5228465C1D00247763D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4D22F4272BD1F30038E869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D22F3272BD1F30038E869 /* AccentSparkInterview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4D22F5272BD1F30038E869 /* AccentSparkInterview */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D22F6272BD1F30038E869 /* AppDelegate.swift */,
+				EB4D22F8272BD1F30038E869 /* SceneDelegate.swift */,
+				EB4D22FA272BD1F30038E869 /* ViewController.swift */,
+				EB4D230A272BD9A10038E869 /* CustomTableViewCell.swift */,
+				EB4D2312272BF7560038E869 /* Model */,
+				EB4D22FC272BD1F30038E869 /* Main.storyboard */,
+				EB56AD05272CF8BC009717FF /* Assets.xcassets */,
+				EB4D2301272BD1F50038E869 /* LaunchScreen.storyboard */,
+				EB4D2304272BD1F50038E869 /* Info.plist */,
+			);
+			path = AccentSparkInterview;
+			sourceTree = "<group>";
+		};
+		EB4D2312272BF7560038E869 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB4D230C272BE08C0038E869 /* UserModel.swift */,
+				EB4D230E272BF12E0038E869 /* NetworkManager.swift */,
+				EB4D2310272BF5660038E869 /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4D22F2272BD1F30038E869 /* AccentSparkInterview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4D2307272BD1F50038E869 /* Build configuration list for PBXNativeTarget "AccentSparkInterview" */;
+			buildPhases = (
+				E002318F5DABFA7AFB020C03 /* [CP] Check Pods Manifest.lock */,
+				EB4D22EF272BD1F30038E869 /* Sources */,
+				EB4D22F0272BD1F30038E869 /* Frameworks */,
+				EB4D22F1272BD1F30038E869 /* Resources */,
+				D51A3DA6C42340D0DADC3A48 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccentSparkInterview;
+			productName = AccentSparkInterview;
+			productReference = EB4D22F3272BD1F30038E869 /* AccentSparkInterview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4D22EB272BD1F30038E869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EB4D22F2272BD1F30038E869 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = EB4D22EE272BD1F30038E869 /* Build configuration list for PBXProject "AccentSparkInterview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4D22EA272BD1F30038E869;
+			productRefGroup = EB4D22F4272BD1F30038E869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4D22F2272BD1F30038E869 /* AccentSparkInterview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4D22F1272BD1F30038E869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4D2303272BD1F50038E869 /* LaunchScreen.storyboard in Resources */,
+				EB56AD06272CF8BC009717FF /* Assets.xcassets in Resources */,
+				EB4D22FE272BD1F30038E869 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D51A3DA6C42340D0DADC3A48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccentSparkInterview/Pods-AccentSparkInterview-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AccentSparkInterview/Pods-AccentSparkInterview-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AccentSparkInterview/Pods-AccentSparkInterview-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E002318F5DABFA7AFB020C03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AccentSparkInterview-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4D22EF272BD1F30038E869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4D230F272BF12E0038E869 /* NetworkManager.swift in Sources */,
+				EB4D22FB272BD1F30038E869 /* ViewController.swift in Sources */,
+				EB4D2311272BF5660038E869 /* UserData.swift in Sources */,
+				EB4D22F7272BD1F30038E869 /* AppDelegate.swift in Sources */,
+				EB4D230B272BD9A10038E869 /* CustomTableViewCell.swift in Sources */,
+				EB4D230D272BE08C0038E869 /* UserModel.swift in Sources */,
+				EB4D22F9272BD1F30038E869 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB4D22FC272BD1F30038E869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4D22FD272BD1F30038E869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB4D2301272BD1F50038E869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4D2302272BD1F50038E869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4D2305272BD1F50038E869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB4D2306272BD1F50038E869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4D2308272BD1F50038E869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0155FB90C01EDE68129A44EF /* Pods-AccentSparkInterview.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNFXRT2N8;
+				INFOPLIST_FILE = AccentSparkInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandipdust.AccentSparkInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB4D2309272BD1F50038E869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39356E08EE9273C503E9769 /* Pods-AccentSparkInterview.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNFXRT2N8;
+				INFOPLIST_FILE = AccentSparkInterview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandipdust.AccentSparkInterview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4D22EE272BD1F30038E869 /* Build configuration list for PBXProject "AccentSparkInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4D2305272BD1F50038E869 /* Debug */,
+				EB4D2306272BD1F50038E869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4D2307272BD1F50038E869 /* Build configuration list for PBXNativeTarget "AccentSparkInterview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4D2308272BD1F50038E869 /* Debug */,
+				EB4D2309272BD1F50038E869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4D22EB272BD1F30038E869 /* Project object */;
+}
